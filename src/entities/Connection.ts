@@ -9,7 +9,7 @@ import {
 } from 'typeorm';
 import { v4 as uuidV4 } from 'uuid';
 
-import { User } from "./user";
+import { User } from './user';
 
 @Entity('connections')
 class Connection {
